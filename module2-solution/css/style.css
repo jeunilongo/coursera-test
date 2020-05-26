@@ -7,7 +7,7 @@ header{
 	text-align: center;
 	font-size:175%;
 	margin-bottom: 15px;
-	margin-top:30px;
+	margin-top:15px;
 }
 section{
 	width:33.33%;
@@ -30,8 +30,8 @@ article{
 	width:100px;
 	text-align: center;
 	font-size:125%;
+	border:1px solid black;
 }
-
 .content {
 	margin:35px 5px 5px 5px;
 }

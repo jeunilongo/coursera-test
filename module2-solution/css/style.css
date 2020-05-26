@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+header{
+	text-align: center;
+	font-size:175%;
+	margin-bottom: 15px;
+	margin-top:30px;
+}
+section{
+	width:33.33%;
+	float:left;
+	margin-top: 20px;
+}
+
+article{
+	position:relative;
+	border: 1px solid black;
+	margin-left:10px;
+	margin-right:10px;
+	background-color: #eee;
+}
+
+.title {
+	position:absolute;
+	top: 0;
+	right: 0;
+	width:100px;
+	text-align: center;
+	font-size:125%;
+}
+
+.content {
+	margin:35px 5px 5px 5px;
+}
+
+.beef {
+	background-color: blue;
+}
+
+.chicken {
+	background-color: yellow;
+}
+
+.pork {
+	background-color: pink;
+}
+@media (min-width: 992px){
+	.dv {
+		width:33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.dv {
+		width: 50%;
+	}
+
+	.mv {
+		width:100%;
+	}
+
+}
+
+@media (max-width: 767px){
+	.dv {
+		width:100%;
+	}
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+</head>
+<body>
+	<h1>Survey Form</h1>
+	<form onsubmit="alert('You have successfully submitted the form')">
+		Name: <input type="text" name="name"><br><br>
+		Email Address: <input type="email" name="email" required> <br><br>
+		Grade Level: <br>
+		<input type="radio" name="gradeLevel" checked>Grade 7 
+		<input type="radio" name="gradeLevel">Grade 8 
+		<input type="radio" name="gradeLevel">Grade 9 
+		<input type="radio" name="gradeLevel">Grade 10 
+		<input type="radio" name="gradeLevel">Grade 11 
+		<input type="radio" name="gradeLevel">Grade 12 <br> <br>
+		Do you have internet connection? <br>
+		<input type="radio" name="internetConnection" value="yes">Yes 
+		<input type="radio" name="internetConnection" value="no">No <br><br>
+		If yes, what device are you using? <br>
+		<input type="checkbox" name="device" value="laptop" >Laptop
+		<input type="checkbox" name="device" value="desktop" >Desktop
+		<input type="checkbox" name="device" value="tablet" >Tablet
+		<input type="checkbox" name="device" >Others <br><br>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>

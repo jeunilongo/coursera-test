@@ -1,0 +1,45 @@
+.navbar-brand h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0 10px 0 10px;
+	line-height: .75;
+}
+
+.navbar-header button.navbar-toggle {
+	clear:both;
+}
+
+.navbar-nav {
+	text-align: center;
+}
+
+.lead {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.text-center {
+	font-size:1.3em;
+	margin-top:10px;
+}
+
+#beef {
+	background-color: red;
+}
+
+#chicken {
+	background-color: blue;
+}
+
+#sushi {
+	background-color: yellow;
+}
+
+#home-tiles {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.menu {
+	margin: 20px 0 20px 0;
+}
